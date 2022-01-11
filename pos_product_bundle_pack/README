@@ -1,0 +1,13 @@
+
+Version 14.0.0.1 (06/07/21) :
+		- Solved negative stock quantity issue for return order from pos.
+
+Version 14.0.0.2 (22/07/21) :
+		- While Validate pos order it will load payment screen and not show receipt screen load it.
+		- Added _create_move_from_pos_order_lines() to create picking from pos with the pack products.
+
+Version 14.0.0.3 (02/08/21) :
+		- Improve code according to odoo 14 , Solved picking issue , Update receipt.
+
+Version 14.0.0.4 (14/10/21) :
+		- When session is close and into picking there have issue it can not add move line more then one product so resolved this issue.
